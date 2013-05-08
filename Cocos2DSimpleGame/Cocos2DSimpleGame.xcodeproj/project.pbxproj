@@ -10,6 +10,7 @@
 		66714C8F173A39D50056DE87 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 66714C8E173A39D50056DE87 /* explosion.caf */; };
 		66714C92173A3A090056DE87 /* monster2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66714C90173A3A090056DE87 /* monster2-hd.png */; };
 		66714C93173A3A090056DE87 /* monster2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66714C91173A3A090056DE87 /* monster2.png */; };
+		66714C96173A3DEF0056DE87 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = 66714C95173A3DEF0056DE87 /* Monster.m */; };
 		66D3D450172A4EB3008341E2 /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3D44F172A4EB3008341E2 /* GameOverLayer.m */; };
 		66FF5CBE172A7CF100DF03CF /* player2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF5CBA172A7CF100DF03CF /* player2-hd.png */; };
 		66FF5CBF172A7CF100DF03CF /* player2.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF5CBB172A7CF100DF03CF /* player2.png */; };
@@ -152,6 +153,8 @@
 		66714C8E173A39D50056DE87 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
 		66714C90173A3A090056DE87 /* monster2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster2-hd.png"; sourceTree = "<group>"; };
 		66714C91173A3A090056DE87 /* monster2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster2.png; sourceTree = "<group>"; };
+		66714C94173A3DEF0056DE87 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		66714C95173A3DEF0056DE87 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
 		66D3D44E172A4EB3008341E2 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
 		66D3D44F172A4EB3008341E2 /* GameOverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverLayer.m; sourceTree = "<group>"; };
 		66FF5CBA172A7CF100DF03CF /* player2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player2-hd.png"; sourceTree = "<group>"; };
@@ -494,6 +497,8 @@
 				9EB6F87F1726BDAF00F05ED9 /* Resources */,
 				9EB6F8991726BDB000F05ED9 /* libs */,
 				9EB6F9F21726BDB100F05ED9 /* Supporting Files */,
+				66714C94173A3DEF0056DE87 /* Monster.h */,
+				66714C95173A3DEF0056DE87 /* Monster.m */,
 			);
 			path = Cocos2DSimpleGame;
 			sourceTree = "<group>";
@@ -1080,6 +1085,7 @@
 				9EB6F9FB1726BDB100F05ED9 /* HelloWorldLayer.m in Sources */,
 				9EB6F9FE1726BDB100F05ED9 /* IntroLayer.m in Sources */,
 				66D3D450172A4EB3008341E2 /* GameOverLayer.m in Sources */,
+				66714C96173A3DEF0056DE87 /* Monster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
